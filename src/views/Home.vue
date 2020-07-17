@@ -16,7 +16,12 @@
       <a id="portfolio" href="https://hurleyhuang.netlify.app/"
         ><img class="title-font" src="./../assets/images/portfolio.svg" />Portfolio Site</a
       >
+      <span>/</span>
+      <a id="tech" href="https://tech-hurley.netlify.app//"
+        ><img class="title-font" src="./../assets/images/tech.svg" />Tech Site</a
+      >
     </div>
+
     <div class="article">
       <h2>Name</h2>
       <p>
@@ -114,6 +119,10 @@
 
 .title-desc-container #portfolio {
   color: #b18a77;
+}
+
+.title-desc-container #tech {
+  color: #1d96db;
 }
 
 a:hover {
