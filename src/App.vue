@@ -11,18 +11,20 @@
         <p>
           Built with ♥ and
           <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on
-          <a href="https://vercel.com/spencerwoo/home">Vercel</a> with APIs hosted on
+          <a href="https://vercel.com/hurleyjames/portfolio">Vercel</a> with APIs hosted on
           <a href="https://www.cloudflare.com/">Cloudflare</a>.
         </p>
         <p>
-          Designed, coded, and deployed from scratch by Spencer Woo. Open source on
-          <a href="https://github.com/spencerwooo/portfolio">GitHub</a>.
+          Designed, and coded by <a href="https://github.com/spencerwooo">Spencer Woo</a>. Thanks for his excellent template. Deployed by <a href="https://github.com/HurleyJames">Hurley</a>.
+        </p>
+        <p>
+            Open source on my <a href="https://github.com/HurleyJames/hurley-portfolio">GitHub</a>.
         </p>
         <p id="busuanzi_container_site_pv">
           Viewed by you guys for a total of
           <span id="busuanzi_value_site_pv"></span> times ♥
         </p>
-        <p id="footer-copyright">©2019 - {{ getYear() }} Spencer Woo</p>
+        <p id="footer-copyright">©2020 - {{ getYear() }} Hurley Huang</p>
       </div>
     </div>
   </div>
