@@ -18,7 +18,7 @@
           Designed, and coded by <a href="https://github.com/spencerwooo">Spencer Woo</a>. Thanks for his excellent template. Deployed by <a href="https://github.com/HurleyJames">Hurley</a>.
         </p>
         <p>
-            Open source on my <a href="https://github.com/HurleyJames/hurley-portfolio">GitHub</a>.
+            Open source code on my <a href="https://github.com/HurleyJames/hurley-portfolio">GitHub</a>.
         </p>
         <p id="busuanzi_container_site_pv">
           Viewed by you guys for a total of

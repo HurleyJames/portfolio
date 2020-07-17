@@ -4,61 +4,58 @@
     <p>Projects I participated in and/or developed.</p>
 
     <GitHubCard
-      title="📟 Dev on Windows with WSL"
-      link="https://github.com/spencerwooo/dowww"
-      :info="dowwwInfo"
+      title="CodeHub"
+      link="https://github.com/HurleyJames/CodeHub"
+      :info="codehubInfo"
       :loading="loading"
     >
       <p>
-        WSL development best practices. Available at:
-        <a href="https://dowww.spencerwoo.com/">Dev on Windows with WSL</a>.
+        CodeHub是一款使用WanAndroid、Readhub以及Gank.io三者api开发的技术阅读类的开源项目。
+        项目是基于Material Design + MVP + RxJava + Retrofit + Dagger2 + Glide等框架开发的。
       </p>
     </GitHubCard>
 
     <GitHubCard
-      title="📈 Substats"
-      link="https://github.com/spencerwooo/Substats"
-      :info="substatsInfo"
+      title="Social Proofs with Blockchain Consensus"
+      link="https://github.com/epournaras/ProofOfSituationAwareness"
+      :info="socialproofInfo"
       :loading="loading"
     >
       <p>
-        Serverless function to count how many people are subscribed to you in your favorite services. Supporting Feedly,
-        Inoreader, GitHub, Twitter, Jike, Zhihu, and much more.
+        This project is using blockchain smart contracts that prove social claims (situation awareness) on the smart phone.
+        The detail information at: 
       </p>
     </GitHubCard>
 
     <GitHubCard
-      title="📖 BIThesis"
-      link="https://github.com/spencerwooo/Substats"
-      :info="bithesisInfo"
+      title="BioGA"
+      link="https://github.com/HurleyJames/BioGA"
+      :info="biogaInfo"
       :loading="loading"
     >
       <p>
-        LaTeX templates for your bachelor graduation thesis (and more) here at BIT.
+        Biological and bio-inspired computation by genetic algorithm with BEAST.
       </p>
     </GitHubCard>
 
     <GitHubCard
-      title="💡 FATES"
-      link="https://github.com/SecureCats/Evaluation_BackEnd"
-      :info="fatesInfo"
+      title="gatsby-starter-hurley"
+      link="https://github.com/HurleyJames/gatsby-starter-hurley"
+      :info="gatsbyhurleyInfo"
       :loading="loading"
     >
       <p>
-        <b>The Fully Anonymous Teaching Evaluation System:</b> a project that won National 2nd Prize on the
-        <a href="http://www.ciscn.cn/">National College Student Information Security Contest</a>, based on OPAAK and CL
-        signatures. More on:
-        <a href="https://medium.com/spencerweekly/recap-on-fates-d9d17a6a7827">Medium - Recap on project FATES.</a>
+        A blog template based on Gatsby.js and React.
       </p>
     </GitHubCard>
 
     <GitHubCard
-      title="💻 My dotfiles"
-      link="https://github.com/spencerwooo/dotfiles"
-      :info="dotfilesInfo"
+      title="FootballLeague"
+      link="https://github.com/HurleyJames/FootballLeague"
+      :info="footballInfo"
       :loading="loading"
     >
-      <p>I freaking can't believe it that this is my most starred project...</p>
+      <p>Football league management system developed via Springboot + Thymeleaf + Layui...</p>
     </GitHubCard>
   </div>
 </template>
@@ -73,23 +70,23 @@ export default {
   data() {
     return {
       loading: true,
-      dowwwInfo: {
+      codehubInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
-      substatsInfo: {
+      socialproofInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
-      bithesisInfo: {
+      biogaInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
-      fatesInfo: {
+      gatsbyhurleyInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
-      dotfilesInfo: {
+      footballInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
@@ -98,22 +95,22 @@ export default {
   mounted() {
     const githubApiUrl = 'https://api.github.com/repos'
 
-    const dowwwAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dowww`)
-    const substatsAxios = this.axios.get(`${githubApiUrl}/spencerwooo/Substats`)
-    const bithesisAxios = this.axios.get(`${githubApiUrl}/spencerwooo/BIThesis`)
-    const fatesAxios = this.axios.get(`${githubApiUrl}/SecureCats/Evaluation_BackEnd`)
-    const dotfilesAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dotfiles`)
+    const codehubAxios = this.axios.get(`${githubApiUrl}/HurleyJames/CodeHub`)
+    const socialproofAxios = this.axios.get(`${githubApiUrl}/epournaras/ProofOfSituationAwareness`)
+    const biogaAxios = this.axios.get(`${githubApiUrl}/HurleyJames/BioGA`)
+    const gatsbyhurleyAxios = this.axios.get(`${githubApiUrl}/HurleyJames/gatsby-starter-hurley`)
+    const footballAxios = this.axios.get(`${githubApiUrl}/HurleyJames/FootballLeague`)
 
     this.axios
-      .all([dowwwAxios, substatsAxios, bithesisAxios, fatesAxios, dotfilesAxios])
+      .all([codehubAxios, socialproofAxios, biogaAxios, gatsbyhurleyAxios, footballAxios])
       .then(
         this.axios.spread((...resp) => {
           this.loading = false
-          this.dowwwInfo = resp[0].data
-          this.substatsInfo = resp[1].data
-          this.bithesisInfo = resp[2].data
-          this.fatesInfo = resp[3].data
-          this.dotfilesInfo = resp[4].data
+          this.codehubInfo = resp[0].data
+          this.socialproofInfo = resp[1].data
+          this.biogaInfo = resp[2].data
+          this.gatsbyhurleyInfo = resp[3].data
+          this.footballInfo = resp[4].data
         }),
       )
       .catch(err => {
