@@ -9,15 +9,21 @@
     <div id="footer">
       <div id="footer-text">
         <p>
-          Built with ♥ and
+          <a href="https://github.com/spencerwooo/portfolio">
+            <img src="https://img.shields.io/badge/Developed%20and%20Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/>
+          </a>
+        </p>
+        <p>
+            Thanks for his excellent portfolio template.
+        </p>
+        <p>
+          Built with
           <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on
           <a href="https://vercel.com/hurleyjames/portfolio">Vercel</a> with APIs hosted on
           <a href="https://www.cloudflare.com/">Cloudflare</a>.
         </p>
         <p>
-          Designed, and coded by <a href="https://github.com/spencerwooo">Spencer Woo</a>. Thanks for his excellent template. Deployed by <a href="https://github.com/HurleyJames">Hurley</a>.
-        </p>
-        <p>
+            Deployed by <a href="https://github.com/HurleyJames">Hurley</a>.
             Open source code on my <a href="https://github.com/HurleyJames/hurley-portfolio">GitHub</a>.
         </p>
         <p id="busuanzi_container_site_pv">
