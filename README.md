@@ -1,8 +1,18 @@
-![Gridsome Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/gridsome.svg)
+<p align="center">
+  <a href="https://hurleyhuang.netlify.app/">
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/HurleyJames/ImageHosting/master/icon.png" width="100" />
+    <h2 align="center">Hurley Huang</h2>
+  </a>
+</p>
 
-# Portfolio
+# Hurley-Portfolio
 
-> This is the personal blog of Hurley.
+> Hurley portfolio template
+
+## Copyrights
+
+This portfolio is developed and designed by [Spencer Woooo](https://github.com/spencerwooo/portfolio).
+Thanks for his excellent portfolio template.
 
 ## Deploy Options
 
@@ -10,13 +20,7 @@ Deploy your own Gridsome project with Vercel:
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hurleyjames%2Fportfolio)
 
-## Copyrights
-
-This portfolio is [![copyright](https://img.shields.io/badge/Developed%20and%20Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e)](https://github.com/spencerwooo/portfolio)
-
-```html
-<a href="https://github.com/spencerwooo/portfolio"><img src="https://img.shields.io/badge/Developed%20and%20Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/></a>
-```
+You can also choose other platforms such as [Netlify](app.netlify.com) to deploy this project.
 
 ## Setup Locally
 
