@@ -1,59 +1,63 @@
 <template>
   <div class="container">
     <div id="name-container">
-      <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>Spencer Woo</h1>
+      <img id="avatar" src="./../assets/images/avatar.jpg" alt="avatar" />
+      <h1>Hurley Huang</h1>
     </div>
     <div class="title-desc-container">
-      <a id="github" href="https://github.com/spencerwooo"
+      <a id="github" href="https://github.com/HurleyJames"
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
-      <a id="sspai" href="https://sspai.com/u/spencerwoo/posts"
-        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
+      <a id="blog" href="http://hurley.fun"
+        ><img class="title-font" src="./../assets/images/blogger.svg" />Blog</a
       >
       <span>/</span>
-      <a id="blog" href="https://blog.spencerwoo.com"
-        ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
+      <a id="portfolio" href="https://hurleyhuang.netlify.app/"
+        ><img class="title-font" src="./../assets/images/portfolio.svg" />Portfolio Site</a
       >
     </div>
     <div class="article">
       <h2>Name</h2>
       <p>
-        I go by the name of <i>Spencer Woo</i>. Various other IDs across the net:
-        <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a> /
-        <a href="https://weibo.com/spencerwoo">@SpencerWoo</a> /
-        <a href="https://github.com/spencerwooo">@spencerwooo</a>.
+        Hey 👋 &nbsp; I'm Hurley Huang!
       </p>
 
       <h2>Academics</h2>
       <ul>
         <li>
-          🍭 Fresh graduate at 🇨🇳 <a href="http://www.bit.edu.cn/">Beijing Institute of Technology</a>,
-          <i>BSc in Computer Science</i>. Currently a research assistant at Data & AI security Lab, BIT.
+          🎓 &nbsp;Currently a student at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>, 
+          <i>MSc in <a href="https://courses.leeds.ac.uk/i537/advanced-computer-science-artificial-intelligence-msc">Advanced Computing Science (Artificial Intelligence)</a></i>.
         </li>
-        <li>
-          🙇 Prospective student at 🇬🇧 <a href="https://www.gla.ac.uk/">the University of Glasgow</a>, 1/2021
-          entry, <i><a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a></i>.
-        </li>
-        <li>🔭 <b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
+        <li>🔭<b>&nbsp; Fields of interest:</b> Mobile Development / Front-end Development.</li>
       </ul>
 
       <h2>Devices</h2>
       <ul>
-        <li>Intel® NUC Kit NUC8I5BEK</li>
-        <li>ThinkPad X1 Carbon 7th Gen</li>
-        <li>Sony 1000XM3</li>
-        <li>iPhone XR / iPad Air 3 / AirPods Pro</li>
+        <li>MacBook Pro (13-inch, 2018)</li>
+        <li>iPad Air 3 / Apple Pencil</li>
+        <li>iPhone 8 Plus / OnePlus 6T</li>
+        <li>AirPods Pro / BeatsX / Magic Trackpad 2</li>
       </ul>
 
       <h2>Contacts</h2>
       <ul>
         <li>
-          <b>Email：</b>
-          <a href="mailto:spencer.woo@outlook.com">spencer.woo#outlook.com</a><i> (Preferred)</i>
+          <b>📫&nbsp; Email me at: </b>
+          <a href="hurleyhuang@outlook.com">hurleyhuang@outlook.com</a><i> (Preferred)</i>
         </li>
-        <li><b>Catch me: </b>Beijing Institute of Technology, Beijing, China</li>
+        <li>
+            <b>📨&nbsp; Contract me via: </b>
+            <a href="https://hurleyhuang.netlify.app/contact">Getform</a>
+            of my blog
+        </li>
+        <li>
+            <b>💬&nbsp; Ask me about anything </b><a href="https://github.com/HurleyJames/HurleyJames/issues">here</a>
+        </li>
+        <li>
+            <b>🇬🇧&nbsp; Catch me: </b>
+            University of Leeds, Leeds, UK
+        </li>
       </ul>
     </div>
   </div>
@@ -104,12 +108,12 @@
   color: #24292e;
 }
 
-.title-desc-container #sspai {
-  color: #ca2c2a;
+.title-desc-container #blog {
+  color: #d81e06;
 }
 
-.title-desc-container #blog {
-  color: #0070f3;
+.title-desc-container #portfolio {
+  color: #b18a77;
 }
 
 a:hover {
