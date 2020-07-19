@@ -10,7 +10,7 @@
       <div id="footer-text">
         <p>
           <a href="https://github.com/spencerwooo/portfolio">
-            <img src="https://img.shields.io/badge/Developed%20and%20Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/>
+            <img src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/>
           </a>
         </p>
         <p>
