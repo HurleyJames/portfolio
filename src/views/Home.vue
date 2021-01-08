@@ -9,15 +9,15 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
-      <a id="blog" href="http://hurleyjames.github.io/"
+      <a id="blog" href="blog.hurley.fun"
         ><img class="title-font" src="./../assets/images/blogger.svg" />Blog</a
       >
       <span>/</span>
-      <a id="portfolio" href="https://hurleyhuang.netlify.app/"
+      <a id="portfolio" href="hurley.fun"
         ><img class="title-font" src="./../assets/images/portfolio.svg" />Portfolio</a
       >
       <span>/</span>
-      <a id="tech" href="https://tech-hurley.netlify.app/"
+      <a id="tech" href="tech-hurley.fun"
         ><img class="title-font" src="./../assets/images/tech.svg" />Tech Site</a
       >
     </div>
