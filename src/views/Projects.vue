@@ -49,17 +49,6 @@
     </GitHubCard>
 
     <GitHubCard
-      title="macOS-Big-Sur-icon-collection"
-      link="https://github.com/HurleyJames/macOS-Big-Sur-icon-collection"
-      :info="iconInfo"
-      :loading="loading"
-    >
-      <p>
-        macOS Big Sur style round corner icon collection.
-      </p>
-    </GitHubCard>
-
-    <GitHubCard
       title="FootballLeague"
       link="https://github.com/HurleyJames/FootballLeague"
       :info="footballInfo"
@@ -76,6 +65,17 @@
     >
       <p>
           English words of computer professional terms.
+      </p>
+    </GitHubCard>
+
+    <GitHubCard
+      title="macOS-Big-Sur-icon-collection"
+      link="https://github.com/HurleyJames/macOS-Big-Sur-icon-collection"
+      :info="iconInfo"
+      :loading="loading"
+    >
+      <p>
+        macOS Big Sur style round corner icon collection.
       </p>
     </GitHubCard>
   </div>
@@ -111,6 +111,14 @@ export default {
         stargazers_count: 0,
         forks_count: 0,
       },
+      wordInfo: {
+        stargazers_count: 0,
+        forks_count: 0,
+      },
+      iconInfo: {
+        stargazers_count: 0,
+        forks_count: 0,
+      }
     }
   },
   mounted() {
