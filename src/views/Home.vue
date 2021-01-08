@@ -31,11 +31,11 @@
       <h2>Academics</h2>
       <ul>
         <li>
-          🎓 &nbsp;Fresh graduate at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>,
+          🎓 &nbsp;Fresh graduated master at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>,
           <i>MSc in <a href="https://courses.leeds.ac.uk/i537/advanced-computer-science-artificial-intelligence-msc">Advanced Computing Science (Artificial Intelligence)</a></i>.
         </li>
         <li>🔭<b>&nbsp; Fields of interest:</b> Mobile Development / Front-end Development / Back-end Development.</li>
-        <li>🎯<b>target:</b> Full-Stack Engineer / Distributed Engineer / AI User</li>
+        <li>🎯<b>&nbsp; Target:</b> Full-Stack Engineer / Distributed Engineer / AI User</li>
       </ul>
 
       <h2>Devices</h2>

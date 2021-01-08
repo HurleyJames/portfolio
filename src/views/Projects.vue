@@ -23,7 +23,6 @@
     >
       <p>
         This project is using blockchain smart contracts that prove social claims (situation awareness) on the smart phone.
-        The detail information at: 
       </p>
     </GitHubCard>
 
@@ -50,12 +49,34 @@
     </GitHubCard>
 
     <GitHubCard
+      title="macOS-Big-Sur-icon-collection"
+      link="https://github.com/HurleyJames/macOS-Big-Sur-icon-collection"
+      :info="iconInfo"
+      :loading="loading"
+    >
+      <p>
+        macOS Big Sur style round corner icon collection.
+      </p>
+    </GitHubCard>
+
+    <GitHubCard
       title="FootballLeague"
       link="https://github.com/HurleyJames/FootballLeague"
       :info="footballInfo"
       :loading="loading"
     >
       <p>Football league management system developed via Springboot + Thymeleaf + Layui...</p>
+    </GitHubCard>
+
+    <GitHubCard
+      title="Computer-English-Words"
+      link="https://github.com/HurleyJames/Computer-English-Words"
+      :info="wordInfo"
+      :loading="loading"
+    >
+      <p>
+          English words of computer professional terms.
+      </p>
     </GitHubCard>
   </div>
 </template>
