@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://hurleyhuang.netlify.app/">
+  <a href="https://hurley.vercel.app/">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/HurleyJames/ImageHosting/master/icon.png" width="100" />
-    <h2 align="center">Hurley Huang</h2>
+    <h2 align="center">Hurley's Portfolio</h2>
   </a>
 </p>
 
