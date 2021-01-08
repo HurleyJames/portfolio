@@ -17,7 +17,7 @@
         ><img class="title-font" src="./../assets/images/portfolio.svg" />Portfolio</a
       >
       <span>/</span>
-      <a id="tech" href="https://tech-hurley.fun"
+      <a id="tech" href="https://tech.hurley.fun"
         ><img class="title-font" src="./../assets/images/tech.svg" />Tech Site</a
       >
     </div>
@@ -31,10 +31,11 @@
       <h2>Academics</h2>
       <ul>
         <li>
-          🎓 &nbsp;Currently a student at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>, 
+          🎓 &nbsp;Fresh graduate at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>,
           <i>MSc in <a href="https://courses.leeds.ac.uk/i537/advanced-computer-science-artificial-intelligence-msc">Advanced Computing Science (Artificial Intelligence)</a></i>.
         </li>
-        <li>🔭<b>&nbsp; Fields of interest:</b> Mobile Development / Front-end Development.</li>
+        <li>🔭<b>&nbsp; Fields of interest:</b> Mobile Development / Front-end Development / Back-end Development.</li>
+        <li>🎯<b>target:</b> Full-Stack Engineer / Distributed Engineer / AI User</li>
       </ul>
 
       <h2>Devices</h2>
