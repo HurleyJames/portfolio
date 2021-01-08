@@ -142,8 +142,8 @@ export default {
           this.biogaInfo = resp[2].data
           this.gatsbyhurleyInfo = resp[3].data
           this.footballInfo = resp[4].data
-          this.wordAxios = resp[5].data
-          this.iconAxios = resp[6].data
+          this.wordInfo = resp[5].data
+          this.iconInfo = resp[6].data
         }),
       )
       .catch(err => {
