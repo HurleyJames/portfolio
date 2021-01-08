@@ -121,9 +121,11 @@ export default {
     const biogaAxios = this.axios.get(`${githubApiUrl}/HurleyJames/BioGA`)
     const gatsbyhurleyAxios = this.axios.get(`${githubApiUrl}/HurleyJames/gatsby-starter-hurley`)
     const footballAxios = this.axios.get(`${githubApiUrl}/HurleyJames/FootballLeague`)
+    const wordAxios = this.axios.get(`${githubApiUrl}/HurleyJames/Computer-English-Words`)
+    const iconAxios = this.axios.get(`${githubApiUrl}/HurleyJames/macOS-Big-Sur-icon-collection`)
 
     this.axios
-      .all([codehubAxios, socialproofAxios, biogaAxios, gatsbyhurleyAxios, footballAxios])
+      .all([codehubAxios, socialproofAxios, biogaAxios, gatsbyhurleyAxios, footballAxios, wordAxios, iconAxios])
       .then(
         this.axios.spread((...resp) => {
           this.loading = false
@@ -132,6 +134,8 @@ export default {
           this.biogaInfo = resp[2].data
           this.gatsbyhurleyInfo = resp[3].data
           this.footballInfo = resp[4].data
+          this.wordAxios = resp[5].data
+          this.iconAxios = resp[6].data
         }),
       )
       .catch(err => {
