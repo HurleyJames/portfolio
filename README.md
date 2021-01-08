@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://hurley.vercel.app/">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/HurleyJames/ImageHosting/master/icon.png" width="100" />
+  <a href="portfolio.hurley.fun">
+    <img src="https://raw.githubusercontent.com/HurleyJames/ImageHosting/master/icon.png" width="100" />
     <h2 align="center">Hurley's Portfolio</h2>
   </a>
 </p>
@@ -11,7 +11,7 @@
 
 ## Copyrights
 
-This portfolio is developed and designed by [Spencer Woooo](https://github.com/spencerwooo/portfolio).
+This portfolio is developed and designed by [Spencer Wooo](https://github.com/spencerwooo/portfolio).
 Thanks for his excellent portfolio template.
 
 ## Deploy Options
