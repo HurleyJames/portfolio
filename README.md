@@ -1,13 +1,14 @@
 <p align="center">
-  <a href="portfolio.hurley.fun">
-    <img src="https://raw.githubusercontent.com/HurleyJames/ImageHosting/master/icon.png" width="100" />
+  <a href="https://portfolio.hurley.fun">
     <h2 align="center">Hurley's Portfolio</h2>
   </a>
 </p>
 
-# Hurley-Portfolio
+# Intro
 
 > Hurley portfolio template
+
+![](/assets/index.png)
 
 ## Copyrights
 
