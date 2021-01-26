@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Projects</h1>
-    <p>Projects I participated in and/or developed.</p>
+    <p>Projects I participated in and / or developed.</p>
 
     <GitHubCard
       title="CodeHub"
@@ -10,8 +10,8 @@
       :loading="loading"
     >
       <p>
-        CodeHub是一款使用WanAndroid、Readhub以及Gank.io三者api开发的技术阅读类的开源项目。
-        项目是基于Material Design + MVP + RxJava + Retrofit + Dagger2 + Glide等框架开发的。
+        CodeHub 是一款使用 WanAndroid、Readhub 以及 Gank.io 三者 api 开发的技术阅读类的开源项目。
+        项目是基于 Material Design + MVP + RxJava + Retrofit + Dagger2 + Glide 等框架开发的。
       </p>
     </GitHubCard>
 

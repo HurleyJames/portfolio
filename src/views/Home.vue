@@ -6,7 +6,7 @@
     </div>
     <div class="title-desc-container">
       <a id="github" href="https://github.com/HurleyJames"
-        ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
+        ><img class="title-font" src="./../assets/images/github.svg" />Github</a
       >
       <span>/</span>
       <a id="blog" href="https://blog.hurley.fun"
@@ -20,6 +20,14 @@
       <a id="tech" href="https://tech.hurley.fun"
         ><img class="title-font" src="./../assets/images/tech.svg" />Tech Site</a
       >
+      <span>/</span>
+      <a id="tech" href="//weibo.com/5628559861" target="_"
+        ><img class="title-font" src="./../assets/images/weibo.svg" />Weibo</a
+      >
+      <span>/</span>
+      <a id="tech" href="//twitter.com/HurleyHuang23" target="_"
+        ><img class="title-font" src="./../assets/images/twitter.svg" />Twitter</a
+      >
     </div>
 
     <div class="article">
@@ -32,17 +40,22 @@
       <ul>
         <li>
           🎓 &nbsp;Fresh graduated master at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>,
-          <i>MSc in <a href="https://courses.leeds.ac.uk/i537/advanced-computer-science-artificial-intelligence-msc">Advanced Computing Science (Artificial Intelligence)</a></i>.
+          <i
+            >MSc in
+            <a href="https://courses.leeds.ac.uk/i537/advanced-computer-science-artificial-intelligence-msc"
+              >Advanced Computing Science (Artificial Intelligence)</a
+            ></i
+          >.
         </li>
-        <li>🔭<b>&nbsp; Fields of interest:</b> Mobile Development / Front-end Development / Back-end Development.</li>
+        <li>🔭<b>&nbsp; Fields of interest:</b> 🤓 Mobile Dev / 😏 Front-end Dev / 🧐 Back-end Dev / 😅 ML.</li>
         <li>🎯<b>&nbsp; Target:</b> Full-Stack Engineer / Distributed Engineer / AI User</li>
       </ul>
 
       <h2>Devices</h2>
       <ul>
-        <li>MacBook Pro (13-inch, 2018)</li>
+        <li>MacBook Pro (13-inch, 2018) / Lenevo Xiaoxin Air 13 Pro</li>
         <li>iPad Air 3 / Apple Pencil</li>
-        <li>iPhone 8 Plus / OnePlus 6T</li>
+        <li>iPhone 8 Plus / OnePlus 6T / Kindle</li>
         <li>AirPods Pro / BeatsX / Magic Trackpad 2</li>
       </ul>
 
@@ -53,16 +66,13 @@
           <a href="hurleyhuang@outlook.com">hurleyhuang@outlook.com</a><i> (Preferred)</i>
         </li>
         <li>
-            <b>📨&nbsp; Contract me via: </b>
-            <a href="https://hurleyhuang.netlify.app/contact">Getform</a>
-            of my blog
+          <b>📨&nbsp; Contract me via: </b>
+          <a href="https://hurley.fun/contact" target="_">Getform</a>
+          of my blog
         </li>
         <li>
-            <b>💬&nbsp; Ask me about anything </b><a href="https://github.com/HurleyJames/HurleyJames/issues">here</a>
-        </li>
-        <li>
-            <b>🇬🇧&nbsp; Catch me: </b>
-            University of Leeds, Leeds, UK
+          <b>🇬🇧&nbsp; Catch me: </b>
+          University of Leeds, Leeds, UK
         </li>
       </ul>
     </div>
@@ -71,10 +81,10 @@
 
 <style lang="css" scoped>
 #name-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #avatar {
