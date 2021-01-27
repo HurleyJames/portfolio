@@ -63,7 +63,7 @@
       <ul>
         <li>
           <b>📫&nbsp; Email me at: </b>
-          <a href="hurleyhuang@outlook.com">hurleyhuang@outlook.com</a><i> (Preferred)</i>
+          <a href="hurleyhuang@outlook.com">hurleyhuang@hotmail.com</a><i> (Preferred)</i>
         </li>
         <li>
           <b>📨&nbsp; Contract me via: </b>
