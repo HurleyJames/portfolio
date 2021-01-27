@@ -42,31 +42,31 @@ cd hurley-portfolio
 ### Install Dependencies
 
 ```
-yarn install
+npm install
 ```
 
 ### Compile and Hot-reloads for Development
 
 ```
-yarn run serve
+npm run serve
 ```
 
 ### Compile
 
 ```
-yarn run build
+npm run build
 ```
 
 ### Run Tests
 
 ```
-yarn run test
+npm run test
 ```
 
 ### Lints and Fixes Files
 
 ```
-yarn run lint
+npm run lint
 ```
 
 ---
