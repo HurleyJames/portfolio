@@ -31,12 +31,12 @@
     </div>
 
     <div class="article">
-      <h2>Name</h2>
+      <h2>👨🏻‍💻 Name</h2>
       <p>
         Hey 👋 &nbsp; I'm Hurley Huang!
       </p>
 
-      <h2>Academics</h2>
+      <h2>🛠 Programming</h2>
       <ul>
         <li>
           🎓 &nbsp;Fresh graduated master at 🇬🇧 &nbsp;<a href="https://www.leeds.ac.uk//">the University of Leeds</a>,
@@ -51,7 +51,7 @@
         <li>🎯<b>&nbsp; Target:</b> Full-Stack Engineer / Distributed Engineer / AI User</li>
       </ul>
 
-      <h2>Devices</h2>
+      <h2>💻 Devices</h2>
       <ul>
         <li>MacBook Pro (13-inch, 2018) / Lenevo Xiaoxin Air 13 Pro</li>
         <li>iPad Air 3 / Apple Pencil</li>
@@ -59,16 +59,16 @@
         <li>AirPods Pro / BeatsX / Magic Trackpad 2</li>
       </ul>
 
-      <h2>Contacts</h2>
+      <h2>📥 Contacts</h2>
       <ul>
         <li>
           <b>📫&nbsp; Email me at: </b>
           <a href="hurleyhuang@outlook.com">hurleyhuang@hotmail.com</a><i> (Preferred)</i>
         </li>
         <li>
-          <b>📨&nbsp; Contract me via: </b>
+          <b>📨&nbsp; Contact me via: </b>
           <a href="https://hurley.fun/contact" target="_">Getform</a>
-          of my blog
+          in my portfolio
         </li>
         <li>
           <b>🇬🇧&nbsp; Catch me: </b>

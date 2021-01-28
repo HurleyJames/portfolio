@@ -68,6 +68,11 @@ export default {
             text: 'SOCIAL',
             path: '/social',
           },
+          {
+            type: 'link',
+            text: 'ACADEMIC',
+            path: '/academic',
+          },
         ],
       },
     }

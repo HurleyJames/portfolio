@@ -7,6 +7,7 @@ import axios from 'axios'
 import Home from './views/Home.vue'
 import Projects from './views/Projects.vue'
 import Social from './views/Social.vue'
+import Academic from './views/Academic.vue'
 import NotFound from './views/NotFound.vue'
 
 Vue.config.productionTip = false
@@ -19,32 +20,33 @@ import './assets/styles/nprogress.css'
 NProgress.configure({ easing: 'ease', speed: 500, showSpinner: false })
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
-    { path: '/', component: Home },
-    { path: '/projects', component: Projects },
-    { path: '/social', component: Social },
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes: [
+        { path: '/', component: Home },
+        { path: '/projects', component: Projects },
+        { path: '/social', component: Social },
+        { path: '/academic', component: Academic },
 
-    // Not found
-    { path: '/*', component: NotFound }
-  ]
+        // Not found
+        { path: '/*', component: NotFound }
+    ]
 })
 
 router.beforeEach((to, from, next) => {
-  if (from.name !== null) {
-    NProgress.start()
-  }
-  next()
-})
-// eslint-disable-next-line no-unused-vars
+        if (from.name !== null) {
+            NProgress.start()
+        }
+        next()
+    })
+    // eslint-disable-next-line no-unused-vars
 router.afterEach((to, from) => {
-  NProgress.done()
+    NProgress.done()
 })
 
 Vue.prototype.axios = axios
 
 new Vue({
-  router,
-  render: h => h(App)
+    router,
+    render: h => h(App)
 }).$mount('#app')
