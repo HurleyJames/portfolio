@@ -9,23 +9,23 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Github</a
       >
       <span>/</span>
-      <a id="blog" href="https://blog.hurley.fun"
+      <a id="blog" href="https://blog.withh.life"
         ><img class="title-font" src="./../assets/images/blogger.svg" />Blog</a
       >
       <span>/</span>
-      <a id="portfolio" href="https://hurley.fun"
-        ><img class="title-font" src="./../assets/images/portfolio.svg" />Portfolio</a
+      <a id="homepage" href="https://withh.life"
+        ><img class="title-font" src="./../assets/images/homepage.svg" />Homepage</a
       >
       <span>/</span>
-      <a id="tech" href="https://tech.hurley.fun"
-        ><img class="title-font" src="./../assets/images/tech.svg" />Tech Site</a
+      <a id="article" href="https://article.withh.life"
+        ><img class="title-font" src="./../assets/images/tech.svg" />Article</a
       >
       <span>/</span>
-      <a id="tech" href="//weibo.com/5628559861" target="_"
+      <a id="weibo" href="//weibo.com/5628559861" target="_"
         ><img class="title-font" src="./../assets/images/weibo.svg" />Weibo</a
       >
       <span>/</span>
-      <a id="tech" href="//twitter.com/HurleyHuang23" target="_"
+      <a id="twitter" href="//twitter.com/HurleyHuang23" target="_"
         ><img class="title-font" src="./../assets/images/twitter.svg" />Twitter</a
       >
     </div>
@@ -67,7 +67,7 @@
         </li>
         <li>
           <b>📨&nbsp; Contact me via: </b>
-          <a href="https://hurley.fun/contact" target="_">Getform</a>
+          <a href="https://withh.life/contact" target="_">Getform</a>
           in my portfolio
         </li>
         <li>
