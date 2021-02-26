@@ -45,6 +45,10 @@
             </svg>
             {{ info.forks_count }}
           </a>
+          <a :href="link + '/language'"> {{ info.language }} </a>
+          <a :href="link + '/license/'">
+            {{ info.license.name }}
+          </a>
         </div>
       </transition>
     </div>
@@ -66,6 +70,10 @@ export default {
     info: {
       stargazers_count: Number,
       forks_count: Number,
+      language: String,
+      license: {
+        name: String,
+      },
     },
   },
 }

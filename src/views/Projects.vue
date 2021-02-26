@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <h1>Projects</h1>
-    <p>Projects I participated in and/or developed.</p>
+    <p>
+      Projects I participated in and/or developed. <strong>Total stars: {{ totalStar() }} 🌟</strong>
+    </p>
 
     <GitHubCard title="CodeHub" link="https://github.com/HurleyJames/CodeHub" :info="codehubInfo" :loading="loading">
       <p>
@@ -17,8 +19,8 @@
       :loading="loading"
     >
       <p>
-        This project is using blockchain smart contracts that prove social claims (situation awareness) on the smart
-        phone.
+        This project is using blockchain smart contracts that prove social claims (situation awareness) on the
+        smartphone.
       </p>
     </GitHubCard>
 
@@ -166,6 +168,24 @@ export default {
         forks_count: 0,
       },
     }
+  },
+  methods: {
+    totalStar: function () {
+      return (
+        this.codehubInfo.stargazers_count +
+        this.socialproofInfo.stargazers_count +
+        this.covid19Info.stargazers_count +
+        this.jdkInfo.stargazers_count +
+        this.interviewInfo.stargazers_count +
+        this.scriptInfo.stargazers_count +
+        this.iconInfo.stargazers_count +
+        this.nchuInfo.stargazers_count +
+        this.wordInfo.stargazers_count +
+        this.calculatorInfo.stargazers_count +
+        this.trainInfo.stargazers_count +
+        this.footballInfo.stargazers_count
+      )
+    },
   },
   mounted() {
     const githubApiUrl = 'https://api.github.com/repos'

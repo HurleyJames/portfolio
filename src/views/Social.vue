@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Social</h1>
-    <p>Some of my followers.</p>
+    <p>My followers of some social medias.</p>
 
     <div class="col-container">
       <div class="row-container">
@@ -139,34 +139,34 @@ export default {
     const coolapkAxios = this.axios.get(`${apiUrl}/?source=coolapk&queryKey=795519`)
     const instagramAxios = this.axios.get(`${apiUrl}/?source=instagram&queryKey=hurleyhuang`)
 
-    rssAxios.then(r => {
+    rssAxios.then((r) => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
     })
-    sspaiAxios.then(r => {
+    sspaiAxios.then((r) => {
       this.sspai = { data: r.data.data.totalSubs, loading: false }
     })
-    jikeAxios.then(r => {
+    jikeAxios.then((r) => {
       this.jike = { data: r.data.data.totalSubs, loading: false }
     })
-    zhihuAxios.then(r => {
+    zhihuAxios.then((r) => {
       this.zhihu = { data: r.data.data.totalSubs, loading: false }
     })
-    weiboAxios.then(r => {
+    weiboAxios.then((r) => {
       this.weibo = { data: r.data.data.totalSubs, loading: false }
     })
-    twitterAxios.then(r => {
+    twitterAxios.then((r) => {
       this.twitter = { data: r.data.data.totalSubs, loading: false }
     })
-    neteaseMusicAxios.then(r => {
+    neteaseMusicAxios.then((r) => {
       this.neteaseMusic = { data: r.data.data.totalSubs, loading: false }
     })
-    githubAxios.then(r => {
+    githubAxios.then((r) => {
       this.github = { data: r.data.data.totalSubs, loading: false }
     })
-    coolapkAxios.then(r => {
+    coolapkAxios.then((r) => {
       this.coolapk = { data: r.data.data.totalSubs, loading: false }
     })
-    instagramAxios.then(r => {
+    instagramAxios.then((r) => {
       this.instagram = { data: r.data.data.totalSubs, loading: false }
     })
   },
