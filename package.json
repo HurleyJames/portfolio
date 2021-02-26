@@ -9,9 +9,11 @@
     "lint-fix": "npx eslint --fix --ext .js --ext .jsx --ext .vue src/"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.6",
     "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "nprogress": "^0.2.0",
+    "postcss": "^7.0.35",
     "vue": "^2.6.10",
     "vue-content-loader": "^0.2.3",
     "vue-navigation-bar": "^2.0.0",
