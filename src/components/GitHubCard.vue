@@ -45,10 +45,8 @@
             </svg>
             {{ info.forks_count }}
           </a>
-          <a :href="link + '/language'"> {{ info.language }} </a>
-          <a :href="link + '/license/'">
-            {{ info.license.name }}
-          </a>
+          <a :href="link + '/language'" v-if="info.language">{{ info.language }}</a>
+          <a :href="link + '/license'" v-if="info.license">{{ info.license.name }}</a>
         </div>
       </transition>
     </div>
