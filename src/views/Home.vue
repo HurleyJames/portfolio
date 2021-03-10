@@ -32,9 +32,7 @@
 
     <div class="article">
       <h2>👨🏻‍💻 Name</h2>
-      <p>
-        Hey 👋 &nbsp; I'm Hurley Huang!
-      </p>
+      <p>Hey 👋 &nbsp; I'm Hurley Huang!</p>
 
       <h2>🛠 Programming</h2>
       <ul>
@@ -68,7 +66,7 @@
         <li>
           <b>📨&nbsp; Contact me via: </b>
           <a href="https://withh.life/contact" target="_">Getform</a>
-          in my portfolio
+          in my Homepage
         </li>
         <li>
           <b>🇬🇧&nbsp; Catch me: </b>
