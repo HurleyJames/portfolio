@@ -17,8 +17,10 @@
         ><img class="title-font" src="./../assets/images/homepage.svg" />Homepage</a
       >
       <span>/</span>
-      <a id="article" href="https://article.withh.life"
-        ><img class="title-font" src="./../assets/images/tech.svg" />Article</a
+      <a id="soul" href="https://soul.withh.life"><img class="title-font" src="./../assets/images/soul.svg" />Soul</a>
+      <span>/</span>
+      <a id="notes" href="https://notes.withh.life"
+        ><img class="title-font" src="./../assets/images/tech.svg" />Notes</a
       >
       <span>/</span>
       <a id="weibo" href="//weibo.com/5628559861" target="_"
