@@ -2,7 +2,8 @@
   <div class="container">
     <h1>Projects</h1>
     <p>
-      Projects I participated in and/or developed. <strong>Total stars: {{ totalStar() }} 🌟</strong>
+      Projects I participated in and/or developed.
+      <strong>Total stars: {{ totalStar() }} 🌟</strong>
     </p>
 
     <GitHubCard title="CodeHub" link="https://github.com/HurleyJames/CodeHub" :info="codehubInfo" :loading="loading">
@@ -171,9 +172,9 @@ export default {
   },
   methods: {
     totalStar: function () {
-      return (
+      var stars =
         this.codehubInfo.stargazers_count +
-        this.socialproofInfo.stargazers_count +
+        // this.socialproofInfo.stargazers_count +
         this.covid19Info.stargazers_count +
         this.jdkInfo.stargazers_count +
         this.interviewInfo.stargazers_count +
@@ -184,14 +185,15 @@ export default {
         this.calculatorInfo.stargazers_count +
         this.trainInfo.stargazers_count +
         this.footballInfo.stargazers_count
-      )
+
+      return stars
     },
   },
   mounted() {
     const githubApiUrl = 'https://api.github.com/repos'
 
     const codehubAxios = this.axios.get(`${githubApiUrl}/HurleyJames/CodeHub`)
-    const socialproofAxios = this.axios.get(`${githubApiUrl}/epournaras/ProofOfSituationAwareness`)
+    // const socialproofAxios = this.axios.get(`${githubApiUrl}/epournaras/ProofOfSituationAwareness`)
     const covid19Axios = this.axios.get(`${githubApiUrl}/HurleyJames/uol-covid19`)
     const jdkAxios = this.axios.get(`${githubApiUrl}/HurleyJames/RTFSC-JDK`)
     const interviewAxios = this.axios.get(`${githubApiUrl}/HurleyJames/interview-vuepress`)
@@ -203,10 +205,14 @@ export default {
     const trainAxios = this.axios.get(`${githubApiUrl}/HurleyJames/TrainSchedule`)
     const footballAxios = this.axios.get(`${githubApiUrl}/NCHUSC/FootballLeague`)
 
+    const githubCountApiUrl = 'https://api.github-star-counter.workers.dev/user'
+
+    const userAxios = this.axios.get(`${githubCountApiUrl}/HurleyJames`)
+
     this.axios
       .all([
         codehubAxios,
-        socialproofAxios,
+        // socialproofAxios,
         covid19Axios,
         jdkAxios,
         interviewAxios,
@@ -217,22 +223,24 @@ export default {
         calculatorAxios,
         trainAxios,
         footballAxios,
+        userAxios,
       ])
       .then(
         this.axios.spread((...resp) => {
           this.loading = false
           this.codehubInfo = resp[0].data
-          this.socialproofInfo = resp[1].data
-          this.covid19Info = resp[2].data
-          this.jdkInfo = resp[3].data
-          this.interviewInfo = resp[4].data
-          this.scriptInfo = resp[5].data
-          this.iconInfo = resp[6].data
-          this.nchuInfo = resp[7].data
-          this.wordInfo = resp[8].data
-          this.calculatorInfo = resp[9].data
-          this.trainInfo = resp[10].data
-          this.footballInfo = resp[11].data
+          // this.socialproofInfo = resp[1].data
+          this.covid19Info = resp[1].data
+          this.jdkInfo = resp[2].data
+          this.interviewInfo = resp[3].data
+          this.scriptInfo = resp[4].data
+          this.iconInfo = resp[5].data
+          this.nchuInfo = resp[6].data
+          this.wordInfo = resp[7].data
+          this.calculatorInfo = resp[8].data
+          this.trainInfo = resp[9].data
+          this.footballInfo = resp[10].data
+          this.userInfo = resp[11].data
         }),
       )
       .catch((err) => {
