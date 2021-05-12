@@ -13,7 +13,7 @@
     "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "nprogress": "^0.2.0",
-    "postcss": "^7.0.35",
+    "postcss": "^8.2.10",
     "vue": "^2.6.10",
     "vue-content-loader": "^0.2.3",
     "vue-navigation-bar": "^2.0.0",
