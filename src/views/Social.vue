@@ -55,7 +55,7 @@
           suffix="followers"
           icon="github.png"
           :loading="github.loading"
-          link="https://github.com/HurleyJames"
+          link="https://github.com/HurleyWong"
         />
       </div>
       <div class="row-container">

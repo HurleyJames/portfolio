@@ -6,7 +6,7 @@
       <strong>Total stars: {{ totalStar() }} 🌟</strong>
     </p>
 
-    <GitHubCard title="CodeHub" link="https://github.com/HurleyJames/CodeHub" :info="codehubInfo" :loading="loading">
+    <GitHubCard title="CodeHub" link="https://github.com/HurleyWong/CodeHub" :info="codehubInfo" :loading="loading">
       <p>
         CodeHub 是一款使用 WanAndroid、Readhub 以及 Gank.io 三者 api 开发的技术阅读类的开源项目。 项目是基于 Material
         Design + MVP + RxJava + Retrofit + Dagger2 + Glide 等框架开发的。
@@ -27,7 +27,7 @@
 
     <GitHubCard
       title="uol-covid19"
-      link="https://github.com/HurleyJames/uol-covid19"
+      link="https://github.com/HurleyWong/uol-covid19"
       :info="covid19Info"
       :loading="loading"
     >
@@ -37,26 +37,26 @@
       </p>
     </GitHubCard>
 
-    <GitHubCard title="RTFSC-JDK" link="https://github.com/HurleyJames/RTFSC-JDK" :info="jdkInfo" :loading="loading">
+    <GitHubCard title="RTFSC-JDK" link="https://github.com/HurleyWong/RTFSC-JDK" :info="jdkInfo" :loading="loading">
       <p>Reading The Fucking Source Code - JDK</p>
     </GitHubCard>
 
     <GitHubCard
       title="interview-vuepress"
-      link="https://github.com/HurleyJames/interview-vuepress"
+      link="https://github.com/HurleyWong/interview-vuepress"
       :info="interviewInfo"
       :loading="loading"
     >
       <p>Campus Recruitment Interview Experience.</p>
     </GitHubCard>
 
-    <GitHubCard title="uScripts" link="https://github.com/HurleyJames/uScripts" :info="scriptInfo" :loading="loading">
+    <GitHubCard title="uScripts" link="https://github.com/HurleyWong/uScripts" :info="scriptInfo" :loading="loading">
       <p>Useful Scripts, involved Python, Shell, etc.</p>
     </GitHubCard>
 
     <GitHubCard
       title="macOS-Big-Sur-icon-collection"
-      link="https://github.com/HurleyJames/macOS-Big-Sur-icon-collection"
+      link="https://github.com/HurleyWong/macOS-Big-Sur-icon-collection"
       :info="iconInfo"
       :loading="loading"
     >
@@ -74,7 +74,7 @@
 
     <GitHubCard
       title="Computer-English-Words"
-      link="https://github.com/HurleyJames/Computer-English-Words"
+      link="https://github.com/HurleyWong/Computer-English-Words"
       :info="wordInfo"
       :loading="loading"
     >
@@ -83,7 +83,7 @@
 
     <GitHubCard
       title="AdvancedCalculator"
-      link="https://github.com/HurleyJames/AdvancedCalculator"
+      link="https://github.com/HurleyWong/AdvancedCalculator"
       :info="calculatorInfo"
       :loading="loading"
     >
@@ -92,7 +92,7 @@
 
     <GitHubCard
       title="TrainSchedule"
-      link="https://github.com/HurleyJames/TrainSchedule"
+      link="https://github.com/HurleyWong/TrainSchedule"
       :info="trainInfo"
       :loading="loading"
     >

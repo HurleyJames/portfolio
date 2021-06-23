@@ -16,17 +16,15 @@
             />
           </a>
         </p>
-        <p>
-          Thanks for his excellent portfolio template.
-        </p>
+        <p>Thanks for his excellent portfolio template.</p>
         <p>
           Built with
           <a href="https://vuejs.org/">Vue.js</a>. Open source code on my
-          <a href="https://github.com/HurleyJames/hurley-portfolio">GitHub</a>.
+          <a href="https://github.com/HurleyWong/hurley-portfolio">GitHub</a>.
         </p>
         <p>
           Proudly deployed on <a href="https://vercel.com/hurleyjames/portfolio">Vercel</a> by
-          <a href="https://github.com/HurleyJames">Hurley</a> with APIs hosted on
+          <a href="https://github.com/HurleyWong">Hurley</a> with APIs hosted on
           <a href="https://www.cloudflare.com/">Cloudflare</a>.
         </p>
         <p id="busuanzi_container_site_pv">

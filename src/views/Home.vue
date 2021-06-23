@@ -5,7 +5,7 @@
       <h1>Hurley Huang</h1>
     </div>
     <div class="title-desc-container">
-      <a id="github" href="https://github.com/HurleyJames"
+      <a id="github" href="https://github.com/HurleyWong"
         ><img class="title-font" src="./../assets/images/github.svg" />Github</a
       >
       <span>/</span>
@@ -55,7 +55,7 @@
       <ul>
         <li>MacBook Pro (13-inch, 2018) / Lenevo Xiaoxin Air 13 Pro</li>
         <li>iPad Air 3 / Apple Pencil</li>
-        <li>iPhone 8 Plus / OnePlus 6T / Kindle</li>
+        <li>iPhone 12 mini / iPhone 8 Plus / OnePlus 6T / Kindle</li>
         <li>AirPods Pro / BeatsX / Magic Trackpad 2</li>
       </ul>
 
@@ -72,7 +72,7 @@
         </li>
         <li>
           <b>🇬🇧&nbsp; Catch me: </b>
-          University of Leeds, Leeds, UK
+          University of Leeds, Leeds, England
         </li>
       </ul>
     </div>
