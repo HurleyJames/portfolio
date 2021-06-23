@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://portfolio.hurley.fun">
+  <a href="https://portfolio.withh.life">
     <h2 align="center">Hurley's Portfolio</h2>
   </a>
 </p>
 
 # Intro
 
-> Hurley portfolio template
+> Hurley Portfolio Template
 
-![](/assets/index.png)
+![](https://i.loli.net/2021/06/23/bqoZnHk5MCmGUVP.png)
 
 ## Copyrights
 
-This portfolio is developed and designed by [Spencer Wooo](https://github.com/spencerwooo/portfolio).
+This portfolio is developed and designed by [spencerwooo](https://github.com/spencerwooo/portfolio).
 Thanks for his excellent portfolio template.
 
 ## Deploy Options
@@ -30,7 +30,7 @@ In your terminal, navigate to where you would like this blog to live, then run
 ### Clone the Repo
 
 ```
-git clone https://github.com/HurleyJames/hurley-portfolio.git
+git clone https://github.com/HurleyWong/hurley-portfolio.git
 ```
 
 ### Navigate to the Directory
