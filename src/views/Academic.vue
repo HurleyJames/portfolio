@@ -7,7 +7,7 @@
       <h2>🙋‍♂️ Self-Intro</h2>
       <p>
         I show most interest in the field of <strong>Android</strong> development and even
-        <strong>large front-end</strong> development. In terms of <strong>papers</strong>, I mainly focus on
+        <strong>front-end</strong> development. In terms of <strong>papers</strong>, I mainly focus on
         <strong>distributed systems</strong> and <strong>blockchain</strong>.
       </p>
 

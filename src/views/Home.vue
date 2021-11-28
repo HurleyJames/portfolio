@@ -47,13 +47,13 @@
             ></i
           >.
         </li>
-        <li>🔭<b>&nbsp; Fields of interest:</b> 🤓 Mobile Dev / 😏 Front-end Dev / 🧐 Back-end Dev / 😅 ML.</li>
-        <li>🎯<b>&nbsp; Target:</b> Full-Stack Engineer / Distributed Engineer / AI User</li>
+        <li>🔭<b>&nbsp; Fields of interest:</b> 🤓 Mobile Dev / 😏 Data Dev / 🧐 Front|Back-end Dev / 😅 ML.</li>
+        <li>🎯<b>&nbsp; Target:</b> Data Developer / Full-Stack Engineer / Distributed Engineer / AI User</li>
       </ul>
 
       <h2>💻 Devices</h2>
       <ul>
-        <li>MacBook Pro (13-inch, 2018) / Lenevo Xiaoxin Air 13 Pro</li>
+        <li>MacBook Pro (13-inch, 2018) / Intel NUC(Mac Mini) / Lenevo Xiaoxin Air 13 Pro</li>
         <li>iPad Air 3 / Apple Pencil</li>
         <li>iPhone 12 mini / iPhone 8 Plus / OnePlus 6T / Kindle</li>
         <li>AirPods Pro / BeatsX / Magic Trackpad 2</li>
