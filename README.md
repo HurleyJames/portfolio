@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://portfolio.withh.life">
+  <a href="https://portfolio.hurleywong.com">
     <h2 align="center">Hurley's Portfolio</h2>
   </a>
 </p>
 
 # Intro
 
-> Hurley Portfolio Template
+> Hurley's Portfolio Template
 
 ![](https://i.loli.net/2021/06/23/bqoZnHk5MCmGUVP.png)
 
@@ -17,7 +17,7 @@ Thanks for his excellent portfolio template.
 
 ## Deploy Options
 
-Deploy your own Gridsome project with Vercel:
+Deploy your own project with Vercel:
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hurleyjames%2Fportfolio)
 
@@ -30,13 +30,13 @@ In your terminal, navigate to where you would like this blog to live, then run
 ### Clone the Repo
 
 ```
-git clone https://github.com/HurleyWong/hurley-portfolio.git
+git clone https://github.com/HurleyWong/vue-portfolio-hurley.git
 ```
 
 ### Navigate to the Directory
 
 ```
-cd hurley-portfolio
+cd vue-portfolio-hurley
 ```
 
 ### Install Dependencies
