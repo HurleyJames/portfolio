@@ -9,17 +9,17 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Github</a
       >
       <span>/</span>
-      <a id="blog" href="https://blog.withh.life"
+      <a id="blog" href="https://blog.hurleywong.com"
         ><img class="title-font" src="./../assets/images/blogger.svg" />Blog</a
       >
       <span>/</span>
-      <a id="homepage" href="https://withh.life"
+      <a id="homepage" href="https://hurleywong.com"
         ><img class="title-font" src="./../assets/images/homepage.svg" />Homepage</a
       >
       <span>/</span>
-      <a id="soul" href="https://soul.withh.life"><img class="title-font" src="./../assets/images/soul.svg" />Soul</a>
+      <a id="soul" href="https://soul.hurleywong.com"><img class="title-font" src="./../assets/images/soul.svg" />Soul</a>
       <span>/</span>
-      <a id="notes" href="https://notes.withh.life"
+      <a id="notes" href="https://notes.hurleywong.com"
         ><img class="title-font" src="./../assets/images/tech.svg" />Notes</a
       >
       <span>/</span>
@@ -67,7 +67,7 @@
         </li>
         <li>
           <b>📨&nbsp; Contact me via: </b>
-          <a href="https://withh.life/contact" target="_">Getform</a>
+          <a href="https://hurleywong.com/contact" target="_">Getform</a>
           in my Homepage
         </li>
         <li>

@@ -14,37 +14,37 @@
       <h2>📒 Notes</h2>
       <ul>
         <li>
-          <a href="https://blog.withh.life/2020/07/social-proofs-blockchain-consensus/" target="_"
+          <a href="https://blog.hurleywong.com/2020/07/social-proofs-blockchain-consensus/" target="_"
             >[[ Social Proofs with Blockchain Consensus ]]</a
           >
           - 基于区块链共识的社会证明
         </li>
         <li>
-          <a href="https://blog.withh.life/2020/02/witness-presence-blockchain-consensus/" target="_"
+          <a href="https://blog.hurleywong.com/2020/02/witness-presence-blockchain-consensus/" target="_"
             >[[ Proof of Witness Presence ]]</a
           >
           - 基于区块链共识的存在证明
         </li>
         <li>
-          <a href="https://blog.withh.life/2020/04/future-generation-cloud-computing/" target="_"
+          <a href="https://blog.hurleywong.com/2020/04/future-generation-cloud-computing/" target="_"
             >[[ A Manifesto for Future Generation Cloud Computing ]]</a
           >
           - 下一个十年的云计算研究方向
         </li>
         <li>
-          <a href="https://blog.withh.life/2020/04/calculating-belu-for-text/" target="_"
+          <a href="https://blog.hurleywong.com/2020/04/calculating-belu-for-text/" target="_"
             >[[ Calculating the BELU Score for Text in Python ]]</a
           >
           - Python 计算文本的 BLEU 分数
         </li>
         <li>
-          <a href="https://blog.withh.life/2021/02/cycling-risk-discomfort/" target="_"
+          <a href="https://blog.hurleywong.com/2021/02/cycling-risk-discomfort/" target="_"
             >[[ On Cycling Risk and Discomfort ]]</a
           >
           - 基于数据驱动的骑行风险和舒适度评估
         </li>
         <li>
-          <a href="https://blog.withh.life/2021/02/visualization-ehr/" target="_"
+          <a href="https://blog.hurleywong.com/2021/02/visualization-ehr/" target="_"
             >[[ A visual data profiling tool for Electronic Health Records (EHRs) dataset ]]</a
           >
           -常规电子健康记录数据的可视化分析

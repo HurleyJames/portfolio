@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div id="app">
     <vue-navigation-bar :options="navbarOptions" />
 
@@ -20,7 +20,7 @@
         <p>
           Built with
           <a href="https://vuejs.org/">Vue.js</a>. Open source code on my
-          <a href="https://github.com/HurleyWong/hurley-portfolio">GitHub</a>.
+          <a href="https://github.com/HurleyWong/vue-portfolio-hurley">GitHub</a>.
         </p>
         <p>
           Proudly deployed on <a href="https://vercel.com/hurleyjames/portfolio">Vercel</a> by
