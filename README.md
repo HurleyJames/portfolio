@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://portfolio.hurleywong.com">
-    <h2 align="center">Hurley's Portfolio</h2>
-  </a>
+   <h2 align="center">Hurley's Portfolio</h2>
 </p>
 
 # Intro
@@ -17,9 +15,7 @@ Thanks for his excellent portfolio template.
 
 ## Deploy Options
 
-Deploy your own project with Vercel:
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=hurleyjames%2Fportfolio)
+Deploy your own project with Vercel.
 
 You can also choose other platforms such as [Netlify](app.netlify.com) to deploy this project.
 
